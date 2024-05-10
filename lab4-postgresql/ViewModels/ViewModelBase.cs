@@ -11,8 +11,6 @@ namespace lab4_postgresql.ViewModels
 {
     public class ViewModelBase : INotifyPropertyChanged
     {
-        public StoreDbContext db = new StoreDbContext();
-
         public event PropertyChangedEventHandler? PropertyChanged;
         public void OnPropertyChanged([CallerMemberName] string prop = "")
         {

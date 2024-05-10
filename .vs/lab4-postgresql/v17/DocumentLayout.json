@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|c:\\users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|c:\\users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\views\\categorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\views\\categorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\views\\categorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\views\\categorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|c:\\users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\views\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -47,6 +19,18 @@
       "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\views\\productwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\views\\categorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\views\\categorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\views\\categorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\views\\categorywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,8 +39,24 @@
       "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\models\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11CCEE6-B2CE-49B6-A220-6639ED638F04}|lab4-postgresql\\lab4-postgresql.csproj|solutionrelative:lab4-postgresql\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,104 +74,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StoreDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\StoreDbContext.cs",
-              "RelativeDocumentMoniker": "lab4-postgresql\\Models\\StoreDbContext.cs",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\StoreDbContext.cs",
-              "RelativeToolTip": "lab4-postgresql\\Models\\StoreDbContext.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAswDQAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T10:44:11.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\CategoryViewModel.cs",
-              "RelativeDocumentMoniker": "lab4-postgresql\\ViewModels\\CategoryViewModel.cs",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\CategoryViewModel.cs",
-              "RelativeToolTip": "lab4-postgresql\\ViewModels\\CategoryViewModel.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAA6wDcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T15:45:01.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "lab4-postgresql\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\MainWindow.xaml.cs",
-              "RelativeToolTip": "lab4-postgresql\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T14:50:45.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "lab4-postgresql\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\Category.cs",
-              "RelativeToolTip": "lab4-postgresql\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T17:59:07.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "lab4-postgresql\\ViewModels\\ProductViewModel.cs",
               "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\ProductViewModel.cs",
               "RelativeToolTip": "lab4-postgresql\\ViewModels\\ProductViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAAAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAwwGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T17:39:15.061Z",
+              "WhenOpened": "2024-05-01T14:56:08.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "lab4-postgresql\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "lab4-postgresql\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T17:40:28.399Z",
+              "DocumentIndex": 2,
+              "Title": "ProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\ProductWindow.xaml",
+              "RelativeDocumentMoniker": "lab4-postgresql\\Views\\ProductWindow.xaml",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\ProductWindow.xaml",
+              "RelativeToolTip": "lab4-postgresql\\Views\\ProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-01T15:20:10.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "ProductWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\ProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab4-postgresql\\Views\\ProductWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\ProductWindow.xaml.cs",
+              "RelativeToolTip": "lab4-postgresql\\Views\\ProductWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwBsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T15:20:08.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "lab4-postgresql\\ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "lab4-postgresql\\ViewModels\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T15:00:45.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\StoreDbContext.cs",
+              "RelativeDocumentMoniker": "lab4-postgresql\\Models\\StoreDbContext.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\StoreDbContext.cs",
+              "RelativeToolTip": "lab4-postgresql\\Models\\StoreDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T15:15:55.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\CategoryWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab4-postgresql\\Views\\CategoryWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\CategoryWindow.xaml.cs",
+              "RelativeToolTip": "lab4-postgresql\\Views\\CategoryWindow.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwBsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T15:20:06.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "lab4-postgresql\\ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\CategoryViewModel.cs",
+              "RelativeToolTip": "lab4-postgresql\\ViewModels\\CategoryViewModel.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAQwEAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T14:56:09.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CategoryWindow.xaml",
               "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\CategoryWindow.xaml",
               "RelativeDocumentMoniker": "lab4-postgresql\\Views\\CategoryWindow.xaml",
               "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\CategoryWindow.xaml",
               "RelativeToolTip": "lab4-postgresql\\Views\\CategoryWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-01T09:58:26.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\CategoryWindow.xaml.cs",
-              "RelativeDocumentMoniker": "lab4-postgresql\\Views\\CategoryWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\CategoryWindow.xaml.cs",
-              "RelativeToolTip": "lab4-postgresql\\Views\\CategoryWindow.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T10:00:11.651Z"
+              "WhenOpened": "2024-05-01T18:24:34.439Z"
             },
             {
               "$type": "Document",
@@ -182,67 +180,67 @@
               "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\MainWindow.xaml",
               "RelativeToolTip": "lab4-postgresql\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-30T17:12:37.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\ProductWindow.xaml",
-              "RelativeDocumentMoniker": "lab4-postgresql\\Views\\ProductWindow.xaml",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\ProductWindow.xaml",
-              "RelativeToolTip": "lab4-postgresql\\Views\\ProductWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-01T09:56:39.236Z"
+              "WhenOpened": "2024-05-01T15:09:54.027Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ProductWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\ProductWindow.xaml.cs",
-              "RelativeDocumentMoniker": "lab4-postgresql\\Views\\ProductWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Views\\ProductWindow.xaml.cs",
-              "RelativeToolTip": "lab4-postgresql\\Views\\ProductWindow.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAIAAAA",
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "lab4-postgresql\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "lab4-postgresql\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T09:56:41.738Z"
+              "WhenOpened": "2024-05-01T15:00:43.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "lab4-postgresql\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\Product.cs",
-              "RelativeToolTip": "lab4-postgresql\\Models\\Product.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAA7wEUAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T18:09:08.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "lab4-postgresql\\ViewModels\\ViewModelBase.cs",
               "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\ViewModelBase.cs",
               "RelativeToolTip": "lab4-postgresql\\ViewModels\\ViewModelBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T15:09:20.1Z"
+              "WhenOpened": "2024-05-01T15:00:47.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "lab4-postgresql\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\Product.cs",
+              "RelativeToolTip": "lab4-postgresql\\Models\\Product.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAA7wEoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T15:08:04.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab4-postgresql\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\MainWindow.xaml.cs",
+              "RelativeToolTip": "lab4-postgresql\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAvwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T16:20:45.994Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "lab4-postgresql\\ViewModels\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\ViewModels\\RelayCommand.cs",
-              "RelativeToolTip": "lab4-postgresql\\ViewModels\\RelayCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "lab4-postgresql\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\12\\source\\repos\\lab4-postgresql\\lab4-postgresql\\Models\\Category.cs",
+              "RelativeToolTip": "lab4-postgresql\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T16:02:33.609Z"
+              "WhenOpened": "2024-05-01T15:08:56.697Z"
             }
           ]
         }

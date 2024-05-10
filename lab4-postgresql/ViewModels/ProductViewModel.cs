@@ -15,6 +15,7 @@ namespace lab4_postgresql.ViewModels
 {
     public class ProductViewModel : ViewModelBase
     {
+        private StoreDbContext db;
         private Product? selectedProduct;
         public Product? SelectedProduct
         {
@@ -37,10 +38,10 @@ namespace lab4_postgresql.ViewModels
             }
         }
 
-        public ProductViewModel()
+        public ProductViewModel(StoreDbContext db)
         {
-            db.Products.Load();
-            products = db.Products.Local.ToObservableCollection();
+            this.db = db;
+            Products = db.Products.Local.ToObservableCollection();
             addProductCommand = new RelayCommand(addProductEntity, () => true);
             updateProductCommand = new RelayCommand(updateProductEntity, CanExecute);
             removeProductCommand = new RelayCommand(removeProductEntity, CanExecute);
@@ -53,7 +54,13 @@ namespace lab4_postgresql.ViewModels
             ProductWindow win = new ProductWindow(new Product());
             if (win.ShowDialog() == true)
             {
-                Product product = win.Product;
+                Product product = new Product
+                {
+                    ProductName = win.Product.ProductName,
+                    Price = win.Product.Price,
+                    Quantity = win.Product.Quantity,
+                    CategoryId = win.Product.CategoryId
+                };
                 await db.Products.AddAsync(product);
                 await db.SaveChangesAsync();
             }

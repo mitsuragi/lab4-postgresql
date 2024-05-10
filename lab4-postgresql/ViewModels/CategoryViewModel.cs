@@ -13,6 +13,7 @@ namespace lab4_postgresql.ViewModels
 {
     public class CategoryViewModel : ViewModelBase
     {
+        private StoreDbContext db;
         private Category? selectedCategory;
         public Category? SelectedCategory
         {
@@ -33,10 +34,10 @@ namespace lab4_postgresql.ViewModels
                 OnPropertyChanged();
             }
         }
-        public CategoryViewModel()
+        public CategoryViewModel(StoreDbContext db)
         {
-            db.Categories.Load();
-            categories = db.Categories.Local.ToObservableCollection();
+            this.db = db;
+            Categories = db.Categories.Local.ToObservableCollection();
             addCategoryCommand = new RelayCommand(addCategoryEntity, () => true);
             updateCategoryCommand = new RelayCommand(updateCategoryEntity, CanExecute);
             removeCategoryCommand = new RelayCommand(removeCategoryEntity, CanExecute);
@@ -78,7 +79,5 @@ namespace lab4_postgresql.ViewModels
             await db.SaveChangesAsync();
         }
         private bool CanExecute() => selectedCategory != null;
-
-
     }
 }
