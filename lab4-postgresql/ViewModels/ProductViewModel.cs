@@ -1,14 +1,7 @@
 ﻿using lab4_postgresql.Models;
 using lab4_postgresql.Views;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace lab4_postgresql.ViewModels
@@ -23,7 +16,7 @@ namespace lab4_postgresql.ViewModels
             set
             {
                 selectedProduct = value;
-                OnPropertyChanged();
+                OnPropertyChanged(nameof(SelectedProduct));
             }
         }
 
@@ -34,14 +27,14 @@ namespace lab4_postgresql.ViewModels
             set
             {
                 products = value;
-                OnPropertyChanged();
+                OnPropertyChanged(nameof(Products));
             }
         }
 
         public ProductViewModel(StoreDbContext db)
         {
             this.db = db;
-            Products = db.Products.Local.ToObservableCollection();
+            products = db.Products.Local.ToObservableCollection();
             addProductCommand = new RelayCommand(addProductEntity, () => true);
             updateProductCommand = new RelayCommand(updateProductEntity, CanExecute);
             removeProductCommand = new RelayCommand(removeProductEntity, CanExecute);
@@ -63,6 +56,8 @@ namespace lab4_postgresql.ViewModels
                 };
                 await db.Products.AddAsync(product);
                 await db.SaveChangesAsync();
+                products = db.Products.Local.ToObservableCollection();
+                OnPropertyChanged(nameof(Products));
             }
         }
 

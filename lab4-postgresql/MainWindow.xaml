@@ -48,29 +48,29 @@
             <Button Grid.Column="5" Content="Удалить категорию" Command="{Binding CategoryVM.removeCategoryCommand}"/>
         </Grid>
         <TabControl Grid.Row="2" Margin="0 10 0 0">
-            <TabItem Header="Продукты">
+            <TabItem Header="Продукты" DataContext="{Binding ProductVM}">
                 <DataGrid AutoGenerateColumns="False"
-                          ItemsSource="{Binding ProductVM.Products, Mode=Oneway, UpdateSourceTrigger=PropertyChanged}"
+                          ItemsSource="{Binding Products, UpdateSourceTrigger=PropertyChanged, IsAsync=True}"
                           IsReadOnly="True"
                           CanUserAddRows="False"
-                          SelectedItem="{Binding ProductVM.SelectedProduct, UpdateSourceTrigger=PropertyChanged}">
+                          SelectedItem="{Binding SelectedProduct, UpdateSourceTrigger=PropertyChanged}">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Номер" Width="*" Binding="{Binding ProductId, UpdateSourceTrigger=PropertyChanged}"/>
-                        <DataGridTextColumn Header="Название" Width="*" Binding="{Binding ProductName, UpdateSourceTrigger=PropertyChanged}"/>
-                        <DataGridTextColumn Header="Цена" Width="*" Binding="{Binding Price, UpdateSourceTrigger=PropertyChanged}"/>
-                        <DataGridTextColumn Header="Количество" Width="*" Binding="{Binding Quantity, UpdateSourceTrigger=PropertyChanged}"/>
-                        <DataGridTextColumn Header="Номер категории" Width="*" Binding="{Binding CategoryId, UpdateSourceTrigger=PropertyChanged}"/>
+                        <DataGridTextColumn Header="Номер" Width="*" Binding="{Binding ProductId}"/>
+                        <DataGridTextColumn Header="Название" Width="*" Binding="{Binding ProductName}"/>
+                        <DataGridTextColumn Header="Цена" Width="*" Binding="{Binding Price}"/>
+                        <DataGridTextColumn Header="Количество" Width="*" Binding="{Binding Quantity}"/>
+                        <DataGridTextColumn Header="Номер категории" Width="*" Binding="{Binding CategoryId}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
-            <TabItem Header="Категории">
+            <TabItem Header="Категории" DataContext="{Binding CategoryVM}">
                 <DataGrid AutoGenerateColumns="False"
-                          ItemsSource="{Binding CategoryVM.Categories}"
+                          ItemsSource="{Binding Categories, UpdateSourceTrigger=PropertyChanged, IsAsync=True}"
                           IsReadOnly="True"
                           CanUserAddRows="False"
-                          SelectedItem="{Binding CategoryVM.SelectedCategory, UpdateSourceTrigger=PropertyChanged}">
+                          SelectedItem="{Binding SelectedCategory, UpdateSourceTrigger=PropertyChanged}">
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Номер" Width="*" Binding="{Binding CategoryId, UpdateSourceTrigger=PropertyChanged}"/>
+                        <DataGridTextColumn Header="Номер" Width="*" Binding="{Binding CategoryId}"/>
                         <DataGridTextColumn Header="Название" Width="*" Binding="{Binding CategoryName}"/>
                     </DataGrid.Columns>
                 </DataGrid>

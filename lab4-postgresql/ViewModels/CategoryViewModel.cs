@@ -1,12 +1,7 @@
 ﻿using lab4_postgresql.Models;
 using lab4_postgresql.Views;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace lab4_postgresql.ViewModels
@@ -54,6 +49,8 @@ namespace lab4_postgresql.ViewModels
                 Category category = win.Category;
                 db.Categories.Add(category);
                 await db.SaveChangesAsync();
+                categories = db.Categories.Local.ToObservableCollection();
+                OnPropertyChanged(nameof(Categories));
             }
         }
         private async void updateCategoryEntity()
