@@ -35,13 +35,13 @@ namespace lab4_postgresql.ViewModels
         {
             this.db = db;
             products = db.Products.Local.ToObservableCollection();
-            addProductCommand = new RelayCommand(addProductEntity, () => true);
-            updateProductCommand = new RelayCommand(updateProductEntity, CanExecute);
-            removeProductCommand = new RelayCommand(removeProductEntity, CanExecute);
+            AddProductCommand = new RelayCommand(addProductEntity, () => true);
+            UpdateProductCommand = new RelayCommand(updateProductEntity, CanExecute);
+            RemoveProductCommand = new RelayCommand(removeProductEntity, CanExecute);
         }
-        public ICommand addProductCommand { get; }
-        public ICommand updateProductCommand { get; }
-        public ICommand removeProductCommand { get; }
+        public ICommand AddProductCommand { get; }
+        public ICommand UpdateProductCommand { get; }
+        public ICommand RemoveProductCommand { get; }
         private async void addProductEntity()
         {
             ProductWindow win = new ProductWindow(new Product());

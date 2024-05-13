@@ -33,14 +33,14 @@ namespace lab4_postgresql.ViewModels
         {
             this.db = db;
             Categories = db.Categories.Local.ToObservableCollection();
-            addCategoryCommand = new RelayCommand(addCategoryEntity, () => true);
-            updateCategoryCommand = new RelayCommand(updateCategoryEntity, CanExecute);
-            removeCategoryCommand = new RelayCommand(removeCategoryEntity, CanExecute);
+            AddCategoryCommand = new RelayCommand(addCategoryEntity, () => true);
+            UpdateCategoryCommand = new RelayCommand(updateCategoryEntity, CanExecute);
+            RemoveCategoryCommand = new RelayCommand(removeCategoryEntity, CanExecute);
         }
 
-        public ICommand addCategoryCommand { get; }
-        public ICommand updateCategoryCommand { get; }
-        public ICommand removeCategoryCommand { get; }
+        public ICommand AddCategoryCommand { get; }
+        public ICommand UpdateCategoryCommand { get; }
+        public ICommand RemoveCategoryCommand { get; }
         private async void addCategoryEntity()
         {
             CategoryWindow win = new CategoryWindow(new Category());

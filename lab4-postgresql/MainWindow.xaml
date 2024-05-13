@@ -23,9 +23,7 @@
         </Grid.RowDefinitions>
         <Menu Grid.Row="0" VerticalAlignment="Top" VerticalContentAlignment="Center" Background="LightGray" Padding="3 2">
             <MenuItem Header="Файл">
-                <MenuItem Header="Сохранить в файл">
-                    <MenuItem Header="Исходные данные" Command="{Binding FileSaveInitialCommand}"/>
-                </MenuItem>
+                <MenuItem Header="Сохранить сущности в файл" Command="{Binding FileSaveCommand}"/>
             </MenuItem>
             <MenuItem Header="Информация">
                 <MenuItem Header="Справка" Command="{Binding ShowAboutCommand}"/>
@@ -40,12 +38,12 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Content="Добавить продукт" Command="{Binding ProductVM.addProductCommand}"/>
-            <Button Grid.Column="1" Content="Изменить продукт" Command="{Binding ProductVM.updateProductCommand}"/>
-            <Button Grid.Column="2" Content="Удалить продукт" Command="{Binding ProductVM.removeProductCommand}"/>
-            <Button Grid.Column="3" Content="Добавить категорию" Command="{Binding CategoryVM.addCategoryCommand}"/>
-            <Button Grid.Column="4" Content="Изменить категорию" Command="{Binding CategoryVM.updateCategoryCommand}"/>
-            <Button Grid.Column="5" Content="Удалить категорию" Command="{Binding CategoryVM.removeCategoryCommand}"/>
+            <Button Grid.Column="0" Content="Добавить продукт" Command="{Binding ProductVM.AddProductCommand}"/>
+            <Button Grid.Column="1" Content="Изменить продукт" Command="{Binding ProductVM.UpdateProductCommand}"/>
+            <Button Grid.Column="2" Content="Удалить продукт" Command="{Binding ProductVM.RemoveProductCommand}"/>
+            <Button Grid.Column="3" Content="Добавить категорию" Command="{Binding CategoryVM.AddCategoryCommand}"/>
+            <Button Grid.Column="4" Content="Изменить категорию" Command="{Binding CategoryVM.UpdateCategoryCommand}"/>
+            <Button Grid.Column="5" Content="Удалить категорию" Command="{Binding CategoryVM.RemoveCategoryCommand}"/>
         </Grid>
         <TabControl Grid.Row="2" Margin="0 10 0 0">
             <TabItem Header="Продукты" DataContext="{Binding ProductVM}">
