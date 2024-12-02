@@ -6,24 +6,69 @@ using System.Windows.Input;
 
 namespace lab4_postgresql.ViewModels
 {
-    public class MainViewModel
+    public class MainViewModel : ViewModelBase
     {
         public StoreDbContext StoreDbContext { get; private set; }
         public CategoryViewModel CategoryVM { get; private set; }
         public ProductViewModel ProductVM { get; private set; }
+
+        private bool showStartupMessage;
+        public bool ShowStartupMessage
+        {
+            get => showStartupMessage;
+            set
+            {
+                showStartupMessage = value;
+                OnPropertyChanged();
+            }
+        }
+
         public MainViewModel()
         {
-            StoreDbContext = new StoreDbContext();
-            StoreDbContext.Products.Load();
-            StoreDbContext.Categories.Load();
-            CategoryVM = new CategoryViewModel(StoreDbContext);
-            ProductVM = new ProductViewModel(StoreDbContext);
-            FileSaveCommand = new RelayCommand(fileSave, canExecuteSave);
-            ShowAboutCommand = new RelayCommand(showAbout, () => true);
+            showStartupMessage = Properties.Settings.Default.ShowStartupMessage;
+
+            if (showStartupMessage)
+            {
+                showAbout();
+            }
+
+            try
+            {
+                StoreDbContext = new StoreDbContext();
+                StoreDbContext.Products.Load();
+                StoreDbContext.Categories.Load();
+                CategoryVM = new CategoryViewModel(StoreDbContext);
+                ProductVM = new ProductViewModel(StoreDbContext);
+            }
+            catch (Exception ex)
+            {
+                string messageBoxText = "Произошла ошибка при загрузке базы данных\n";
+
+                string caption = "Ошибка";
+
+                MessageBoxImage icon = MessageBoxImage.Error;
+
+                MessageBox.Show(messageBoxText, caption, MessageBoxButton.OK, icon);
+
+                return;
+            }
+            finally
+            {
+                FileSaveCommand = new RelayCommand(fileSave, canExecuteSave);
+                ShowAboutCommand = new RelayCommand(showAbout, () => true);
+                SwitchShowStartupCommand = new RelayCommand(switchShow, () => true);
+            }
         }
 
         public ICommand FileSaveCommand { get; }
         public ICommand ShowAboutCommand { get; }
+        public ICommand SwitchShowStartupCommand { get; }
+
+        private void switchShow()
+        {
+            Properties.Settings.Default.ShowStartupMessage = showStartupMessage;
+            Properties.Settings.Default.Save();
+        }
 
         private void fileSave()
         {
@@ -31,7 +76,7 @@ namespace lab4_postgresql.ViewModels
             List<Category> categories = StoreDbContext.Categories.ToList();
 
             var dialog = new Microsoft.Win32.SaveFileDialog();
-            dialog.FileName = "Результат";
+            dialog.FileName = "Сущности";
             dialog.DefaultExt = ".txt";
             dialog.Filter = "Текстовые документы (.txt)|*.txt";
 

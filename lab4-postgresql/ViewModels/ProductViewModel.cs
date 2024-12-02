@@ -2,6 +2,7 @@
 using lab4_postgresql.Views;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.ObjectModel;
+using System.Windows;
 using System.Windows.Input;
 
 namespace lab4_postgresql.ViewModels
@@ -44,20 +45,26 @@ namespace lab4_postgresql.ViewModels
         public ICommand RemoveProductCommand { get; }
         private async void addProductEntity()
         {
-            ProductWindow win = new ProductWindow(new Product());
+            ProductWindow win = new ProductWindow(new Product(), db);
             if (win.ShowDialog() == true)
             {
-                Product product = new Product
+                if (string.IsNullOrWhiteSpace(win.Product.ProductName) || win.Product.Price <= 0)
                 {
-                    ProductName = win.Product.ProductName,
-                    Price = win.Product.Price,
-                    Quantity = win.Product.Quantity,
-                    CategoryId = win.Product.CategoryId
-                };
-                await db.Products.AddAsync(product);
-                await db.SaveChangesAsync();
-                products = db.Products.Local.ToObservableCollection();
-                OnPropertyChanged(nameof(Products));
+                    ShowErrorMessage();
+                    return;
+                }
+                Product product = win.Product;
+                try
+                {
+                    await db.Products.AddAsync(product);
+                    await db.SaveChangesAsync();
+                    products = db.Products.Local.ToObservableCollection();
+                    OnPropertyChanged(nameof(Products));
+                }
+                catch
+                {
+                    ShowErrorMessage();
+                }
             }
         }
 
@@ -72,23 +79,59 @@ namespace lab4_postgresql.ViewModels
                 CategoryId = selectedProduct.CategoryId
             };
 
-            ProductWindow win = new ProductWindow(product);
+            ProductWindow win = new ProductWindow(product, db);
             if (win.ShowDialog() == true)
             {
+                if (string.IsNullOrWhiteSpace(win.Product.ProductName) || win.Product.Price <= 0)
+                {
+                    ShowErrorMessage();
+                    return;
+                }
                 selectedProduct.ProductName = win.Product.ProductName;
                 selectedProduct.Price = win.Product.Price;
                 selectedProduct.Quantity = win.Product.Quantity;
                 selectedProduct.CategoryId = win.Product.CategoryId;
                 db.Entry(selectedProduct).State = EntityState.Modified;
-                await db.SaveChangesAsync();
+                try
+                {
+                    await db.SaveChangesAsync();
+                }
+                catch
+                {
+                    ShowErrorMessage();
+                }
             }
         }
         private async void removeProductEntity()
         {
             Product? product = selectedProduct;
-            db.Products.Remove(product);
+            if (ShowConfirmationWindow() == MessageBoxResult.Yes)
+            {
+                db.Products.Remove(product);
+            }
             await db.SaveChangesAsync();
         }
         private bool CanExecute() => selectedProduct != null;
+        private void ShowErrorMessage()
+        {
+            string messageBoxText = "Некорректные значения";
+
+            string caption = "Ошибка";
+
+            MessageBoxImage icon = MessageBoxImage.Error;
+
+            MessageBox.Show(messageBoxText, caption, MessageBoxButton.OK, icon);
+        }
+
+        private MessageBoxResult ShowConfirmationWindow()
+        {
+            string messageBoxText = "Вы уверены? Действие нельзя будет отменить";
+
+            string caption = "Подтвердите действие";
+
+            MessageBoxImage icon = MessageBoxImage.Question;
+
+            return MessageBox.Show(messageBoxText, caption, MessageBoxButton.YesNo, icon);
+        }
     }
 }

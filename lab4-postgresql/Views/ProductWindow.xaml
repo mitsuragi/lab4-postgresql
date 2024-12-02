@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:lab4_postgresql.Views"
         xmlns:viewmodel="clr-namespace:lab4_postgresql.ViewModels"
         mc:Ignorable="d"
-        Title="ProductWindow" Height="200" Width="300">
+        Title="Продукт" Height="200" Width="300">
+    <Window.Resources>
+        <!-- Определяем источник данных для списка категорий -->
+        <CollectionViewSource x:Key="CategoriesSource" />
+    </Window.Resources>
     <Grid Margin="10">
         <Grid.Resources>
             <Style TargetType="{x:Type Button}">
@@ -39,7 +43,11 @@
         <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Quantity, UpdateSourceTrigger=PropertyChanged}"/>
 
         <Label Grid.Column="0" Grid.Row="3">Номер категории:</Label>
-        <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding CategoryId, UpdateSourceTrigger=PropertyChanged}"/>
+        <ComboBox Grid.Column="1" Grid.Row="3"
+                  ItemsSource="{Binding Source={StaticResource CategoriesSource}}"
+                  DisplayMemberPath="CategoryName"
+                  SelectedValuePath="CategoryId"
+                  SelectedValue="{Binding CategoryId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
 
         <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10 10">
             <Button Name="okButton" IsDefault="True" Click="Accept_Click">Добавить</Button>

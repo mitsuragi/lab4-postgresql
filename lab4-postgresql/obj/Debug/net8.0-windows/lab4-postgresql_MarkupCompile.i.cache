@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\12\source\repos\lab4-postgresql\lab4-postgresql\obj\Debug\net8.0-windows\
+D:\learning\rps\4\lab4-postgresql\lab4-postgresql\obj\Debug\net8.0-windows\
 lab4_postgresql
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\12\source\repos\lab4-postgresql\lab4-postgresql\App.xaml
+D:\learning\rps\4\lab4-postgresql\lab4-postgresql\App.xaml
 3313407764
 
-19-1910337878
-21247146141
+20-429106753
+212-1405733306
 MainWindow.xaml;Views\CategoryWindow.xaml;Views\ProductWindow.xaml;
 
 False

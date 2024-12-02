@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 namespace lab4_postgresql.Models;
@@ -37,7 +35,14 @@ public partial class Product : INotifyPropertyChanged
         get => price;
         set
         {
-            price = value;
+            if (value < 0)
+            {
+                price = 0;
+            }
+            else
+            {
+                price = value;
+            }
             OnPropertyChanged();
         }
     }
@@ -47,7 +52,14 @@ public partial class Product : INotifyPropertyChanged
         get => quantity;
         set
         {
-            quantity = value;
+            if (value < 0)
+            {
+                quantity = 0;
+            }
+            else
+            {
+                quantity = value;
+            }
             OnPropertyChanged();
         }
     }
@@ -57,7 +69,14 @@ public partial class Product : INotifyPropertyChanged
         get => categoryId;
         set
         {
-            categoryId = value;
+            if (value < 0)
+            {
+                categoryId = 0;
+            }
+            else
+            {
+                categoryId = value;
+            }
             OnPropertyChanged();
         }
     }
@@ -72,4 +91,5 @@ public partial class Product : INotifyPropertyChanged
             PropertyChanged(this, new PropertyChangedEventArgs(prop));
         }
     }
+    public string Error => null;
 }
